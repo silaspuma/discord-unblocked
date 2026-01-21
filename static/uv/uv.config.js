@@ -1,6 +1,7 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: '/bare/',
+    /* Use a public bare server URL here */
+    bare: 'https://uv.holyubofficial.net/bare/', 
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
